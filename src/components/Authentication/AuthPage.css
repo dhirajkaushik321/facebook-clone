@@ -1,0 +1,27 @@
+.authpage__img{
+    object-fit:contain;
+    margin-top:30%;
+    width:60%;
+}
+
+.authpage__text{
+    color:#1c1e21;
+    font-weight:normal;
+    font-family:Helvetica;  
+    margin-left:30px;
+}
+
+.form{
+    margin-top:20%;
+    text-align:center;
+    /* width:85%; */
+}
+.form__btnSignup{
+    width:60%;
+}
+
+
+
+.signUpModal__btn{
+    width:60%;
+}
