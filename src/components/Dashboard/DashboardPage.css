@@ -1,0 +1,16 @@
+.myNavbar{
+    background-color:#4267B2 ;
+    color:#fff;
+    padding:10px;
+}
+
+.myNavbar__icon{
+    color: #333333;
+    cursor: pointer;
+}
+.myNavbar__icon:hover{
+    color:#111;
+}
+.myNavbar__icon:active{
+    color:#fff;
+}
