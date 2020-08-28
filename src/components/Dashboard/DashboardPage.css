@@ -1,16 +1,93 @@
-.myNavbar{
-    background-color:#4267B2 ;
-    color:#fff;
-    padding:10px;
+.myNavbar {
+  background-color: #4267b2;
+  color: #fff;
+  padding: 10px;
+}
+.myNavbar__icon {
+  color: #333333;
+  cursor: pointer;
+  font-size: 1.4rem;
 }
 
-.myNavbar__icon{
-    color: #333333;
-    cursor: pointer;
+
+.myNavbar__icon:hover {
+  color: #111;
 }
-.myNavbar__icon:hover{
-    color:#111;
+.myNavbar__icon:active {
+  color: #fff;
 }
-.myNavbar__icon:active{
-    color:#fff;
+
+.post {
+  background-color: #fff;
 }
+.post__name {
+  color: #385898;
+}
+.post__avatar {
+  width: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__likeCount {
+  color: #fff;
+  background-color: #4267b2;
+  border-radius: 50%;
+  object-fit: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.post__icons {
+  font-size: 1.2rem;
+}
+
+
+/* comment styles */
+.comment__avatar{
+    width:40px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.comment__name{
+    color: #385898;
+    font-size: 1.1rem;
+}
+
+.comment__text{
+    font-size: 1.16rem;
+    margin-top:8px;
+    margin-left:8px;
+}
+
+.commentBox__input{
+  background-color: #F2F3F5;
+  width:300%;
+}
+@media (max-width: 576px) {
+    .myNavbar {
+      background-color: #4267b2;
+      color: #fff;
+      padding: 0px;
+    }
+    .myNavbar__icon {
+      color: #333333;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+
+    .post__icons {
+        font-size: 1rem;
+      }
+      .commentBox__input{
+        background-color: #F2F3F5;
+        width: 100%;
+      }
+  }
