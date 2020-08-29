@@ -2,10 +2,12 @@ import React from 'react'
 import './DashboardPage.css'
 import Post from './Post'
 import CreatePost from './CreatePost'
+import Navbar from './Navbar'
 const DashboardPage = () => {
     return (
+        <div className="App container">
+        <Navbar/>
         <div className="row ">
-            {/* <div className="bg-primary d-none d-md-block col-sm-3">hello</div> */}
             <div className="col-12">
                 <CreatePost/>
                 <Post/>
@@ -14,7 +16,7 @@ const DashboardPage = () => {
                 <Post/>
 
             </div>
-            {/* <div className="bg-dark d-none d-md-block col-sm-3">world</div> */}
+        </div>
         </div>
     )
 }
