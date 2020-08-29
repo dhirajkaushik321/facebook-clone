@@ -2,6 +2,7 @@
 import React from 'react'
 import './AuthPage.css'
 import Form from './Form'
+import  Spinner  from '../utils/Spinner'
 
 const AuthPage = () => {
 
